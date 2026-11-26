@@ -4570,7 +4570,7 @@ cc_prebuilt_library_shared {
                 "libcutils",
                 "liblog",
                 "libsync",
-                "libprotobuf-cpp-full-3.9.1",
+                "libprotobuf-cpp-full-3.9.1-vendorcompat",
                 "libqshcamera",
                 "libsnsapi",
                 "com.qti.qseeutils",
@@ -4619,7 +4619,7 @@ cc_prebuilt_library_shared {
                 "vendor.qti.hardware.display.mapper@4.0",
                 "vendor.qti.hardware.display.mapperextensions@1.1",
                 "libcdsprpc",
-                "libprotobuf-cpp-full-3.9.1",
+                "libprotobuf-cpp-full-3.9.1-vendorcompat",
                 "libqmi_common_so",
                 "libqmi_cci",
                 "libqmi_encdec",
@@ -4702,7 +4702,7 @@ cc_prebuilt_library_shared {
                 "libcamxhwnodecontext",
                 "libcamximageformatutils",
                 "libcamxstatscore",
-                "libprotobuf-cpp-full-3.9.1",
+                "libprotobuf-cpp-full-3.9.1-vendorcompat",
                 "libqmi_cci",
                 "libqmi_common_so",
                 "libqmi_encdec",
@@ -4718,7 +4718,7 @@ cc_prebuilt_library_shared {
                 "libcvp2_1",
                 "libsynx",
                 "libXMFaceFocus",
-                "libmemunreachable",
+                "libmemunreachable_vendor",
                 "libz",
                 "libdl",
                 "libc",
@@ -5881,7 +5881,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "libmemunreachable",
+    name: "libmemunreachable_vendor",
+    stem: "libmemunreachable",
     owner: "xiaomi",
     strip: {
         none: true,
@@ -6459,7 +6460,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/libqshcamera.so",
             ],
             shared_libs: [
-                "libprotobuf-cpp-lite-3.9.1",
+                "libprotobuf-cpp-lite-3.9.1-vendorcompat",
                 "libsnsapi",
                 "libc++",
                 "libc",
