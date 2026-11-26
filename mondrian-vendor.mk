@@ -798,7 +798,6 @@ PRODUCT_PACKAGES += \
     libfastcvdsp_stub \
     libfastcvopt \
     libhdr10plus \
-    libmemunreachable_vendor \
     libmi_supernight_raw_checker \
     libmialgo_ai_vision \
     libmialgo_aio_seg \
