@@ -33,9 +33,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/mondrian/proprietary/vendor/etc/acdbdata/ukee_mtp/MTP_ukee_workspaceFileXml.qwsp:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/ukee_mtp/MTP_ukee_workspaceFileXml.qwsp \
     vendor/xiaomi/mondrian/proprietary/vendor/etc/acdbdata/ukee_qrd/QRD_ukee_acdb_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/ukee_qrd/QRD_ukee_acdb_cal.acdb \
     vendor/xiaomi/mondrian/proprietary/vendor/etc/acdbdata/ukee_qrd/QRD_ukee_workspaceFileXml.qwsp:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/ukee_qrd/QRD_ukee_workspaceFileXml.qwsp \
-    vendor/xiaomi/mondrian/proprietary/vendor/etc/audio/sku_cape/audio_effects.conf:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_cape/audio_effects.conf \
-    vendor/xiaomi/mondrian/proprietary/vendor/etc/audio/sku_cape/audio_effects.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_cape/audio_effects.xml \
-    vendor/xiaomi/mondrian/proprietary/vendor/etc/audio/sku_cape/audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_cape/audio_policy_configuration.xml \
     vendor/xiaomi/mondrian/proprietary/vendor/etc/audio/sku_cape/mixer_paths_overlay_dynamic.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_cape/mixer_paths_overlay_dynamic.xml \
     vendor/xiaomi/mondrian/proprietary/vendor/etc/audio/sku_cape/mixer_paths_overlay_static.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_cape/mixer_paths_overlay_static.xml \
     vendor/xiaomi/mondrian/proprietary/vendor/etc/audio/sku_cape/mixer_paths_waipio_cdp.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_cape/mixer_paths_waipio_cdp.xml \
@@ -45,61 +42,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/mondrian/proprietary/vendor/etc/audio/sku_cape/resourcemanager_waipio_cdp.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_cape/resourcemanager_waipio_cdp.xml \
     vendor/xiaomi/mondrian/proprietary/vendor/etc/audio/sku_cape/resourcemanager_waipio_mtp.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_cape/resourcemanager_waipio_mtp.xml \
     vendor/xiaomi/mondrian/proprietary/vendor/etc/audio/sku_cape/resourcemanager_waipio_qrd.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_cape/resourcemanager_waipio_qrd.xml \
-    vendor/xiaomi/mondrian/proprietary/vendor/etc/audio/sku_cape_qssi/audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_cape_qssi/audio_policy_configuration.xml \
-    vendor/xiaomi/mondrian/proprietary/vendor/etc/audio/sku_diwali/audio_effects.conf:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_diwali/audio_effects.conf \
-    vendor/xiaomi/mondrian/proprietary/vendor/etc/audio/sku_diwali/audio_effects.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_diwali/audio_effects.xml \
-    vendor/xiaomi/mondrian/proprietary/vendor/etc/audio/sku_diwali/audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_diwali/audio_policy_configuration.xml \
-    vendor/xiaomi/mondrian/proprietary/vendor/etc/audio/sku_diwali/mixer_paths_diwali_idp.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_diwali/mixer_paths_diwali_idp.xml \
-    vendor/xiaomi/mondrian/proprietary/vendor/etc/audio/sku_diwali/mixer_paths_diwali_idp_sku1.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_diwali/mixer_paths_diwali_idp_sku1.xml \
-    vendor/xiaomi/mondrian/proprietary/vendor/etc/audio/sku_diwali/mixer_paths_diwali_qrd.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_diwali/mixer_paths_diwali_qrd.xml \
-    vendor/xiaomi/mondrian/proprietary/vendor/etc/audio/sku_diwali/mixer_paths_diwali_qrd_sku1.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_diwali/mixer_paths_diwali_qrd_sku1.xml \
-    vendor/xiaomi/mondrian/proprietary/vendor/etc/audio/sku_diwali/resourcemanager_diwali_idp_sku1.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_diwali/resourcemanager_diwali_idp_sku1.xml \
-    vendor/xiaomi/mondrian/proprietary/vendor/etc/audio/sku_diwali/resourcemanager_diwali_qrd.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_diwali/resourcemanager_diwali_qrd.xml \
-    vendor/xiaomi/mondrian/proprietary/vendor/etc/audio/sku_diwali/resourcemanager_diwali_qrd_sku1.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_diwali/resourcemanager_diwali_qrd_sku1.xml \
-    vendor/xiaomi/mondrian/proprietary/vendor/etc/audio/sku_diwali/resourcemanager_upd.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_diwali/resourcemanager_upd.xml \
-    vendor/xiaomi/mondrian/proprietary/vendor/etc/audio/sku_diwali_qssi/audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_diwali_qssi/audio_policy_configuration.xml \
-    vendor/xiaomi/mondrian/proprietary/vendor/etc/audio/sku_parrot/audio_effects.conf:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_parrot/audio_effects.conf \
-    vendor/xiaomi/mondrian/proprietary/vendor/etc/audio/sku_parrot/audio_effects.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_parrot/audio_effects.xml \
-    vendor/xiaomi/mondrian/proprietary/vendor/etc/audio/sku_parrot/audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_parrot/audio_policy_configuration.xml \
-    vendor/xiaomi/mondrian/proprietary/vendor/etc/audio/sku_parrot/mixer_paths_diwali_idp.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_parrot/mixer_paths_diwali_idp.xml \
-    vendor/xiaomi/mondrian/proprietary/vendor/etc/audio/sku_parrot/mixer_paths_diwali_idp_sku1.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_parrot/mixer_paths_diwali_idp_sku1.xml \
-    vendor/xiaomi/mondrian/proprietary/vendor/etc/audio/sku_parrot/mixer_paths_diwali_parrot_qrd.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_parrot/mixer_paths_diwali_parrot_qrd.xml \
-    vendor/xiaomi/mondrian/proprietary/vendor/etc/audio/sku_parrot/mixer_paths_diwali_qrd.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_parrot/mixer_paths_diwali_qrd.xml \
-    vendor/xiaomi/mondrian/proprietary/vendor/etc/audio/sku_parrot/mixer_paths_diwali_qrd_sku1.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_parrot/mixer_paths_diwali_qrd_sku1.xml \
-    vendor/xiaomi/mondrian/proprietary/vendor/etc/audio/sku_parrot/resourcemanager_diwali_idp.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_parrot/resourcemanager_diwali_idp.xml \
-    vendor/xiaomi/mondrian/proprietary/vendor/etc/audio/sku_parrot/resourcemanager_diwali_idp_sku1.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_parrot/resourcemanager_diwali_idp_sku1.xml \
-    vendor/xiaomi/mondrian/proprietary/vendor/etc/audio/sku_parrot/resourcemanager_diwali_parrot_qrd.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_parrot/resourcemanager_diwali_parrot_qrd.xml \
-    vendor/xiaomi/mondrian/proprietary/vendor/etc/audio/sku_parrot/resourcemanager_diwali_qrd.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_parrot/resourcemanager_diwali_qrd.xml \
-    vendor/xiaomi/mondrian/proprietary/vendor/etc/audio/sku_parrot/resourcemanager_diwali_qrd_sku1.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_parrot/resourcemanager_diwali_qrd_sku1.xml \
-    vendor/xiaomi/mondrian/proprietary/vendor/etc/audio/sku_parrot/resourcemanager_upd.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_parrot/resourcemanager_upd.xml \
-    vendor/xiaomi/mondrian/proprietary/vendor/etc/audio/sku_parrot_qssi/audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_parrot_qssi/audio_policy_configuration.xml \
-    vendor/xiaomi/mondrian/proprietary/vendor/etc/audio/sku_taro/audio_effects.conf:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_taro/audio_effects.conf \
-    vendor/xiaomi/mondrian/proprietary/vendor/etc/audio/sku_taro/audio_effects.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_taro/audio_effects.xml \
-    vendor/xiaomi/mondrian/proprietary/vendor/etc/audio/sku_taro/audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_taro/audio_policy_configuration.xml \
-    vendor/xiaomi/mondrian/proprietary/vendor/etc/audio/sku_taro/mixer_paths_overlay_dynamic.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_taro/mixer_paths_overlay_dynamic.xml \
-    vendor/xiaomi/mondrian/proprietary/vendor/etc/audio/sku_taro/mixer_paths_overlay_static.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_taro/mixer_paths_overlay_static.xml \
-    vendor/xiaomi/mondrian/proprietary/vendor/etc/audio/sku_taro/mixer_paths_waipio_cdp.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_taro/mixer_paths_waipio_cdp.xml \
-    vendor/xiaomi/mondrian/proprietary/vendor/etc/audio/sku_taro/mixer_paths_waipio_mtp.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_taro/mixer_paths_waipio_mtp.xml \
-    vendor/xiaomi/mondrian/proprietary/vendor/etc/audio/sku_taro/mixer_paths_waipio_qrd.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_taro/mixer_paths_waipio_qrd.xml \
-    vendor/xiaomi/mondrian/proprietary/vendor/etc/audio/sku_taro/resourcemanager_upd.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_taro/resourcemanager_upd.xml \
-    vendor/xiaomi/mondrian/proprietary/vendor/etc/audio/sku_taro/resourcemanager_waipio_cdp.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_taro/resourcemanager_waipio_cdp.xml \
-    vendor/xiaomi/mondrian/proprietary/vendor/etc/audio/sku_taro/resourcemanager_waipio_qrd.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_taro/resourcemanager_waipio_qrd.xml \
-    vendor/xiaomi/mondrian/proprietary/vendor/etc/audio/sku_taro_qssi/audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_taro_qssi/audio_policy_configuration.xml \
-    vendor/xiaomi/mondrian/proprietary/vendor/etc/audio/sku_ukee/audio_effects.conf:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_ukee/audio_effects.conf \
-    vendor/xiaomi/mondrian/proprietary/vendor/etc/audio/sku_ukee/audio_effects.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_ukee/audio_effects.xml \
-    vendor/xiaomi/mondrian/proprietary/vendor/etc/audio/sku_ukee/audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_ukee/audio_policy_configuration.xml \
-    vendor/xiaomi/mondrian/proprietary/vendor/etc/audio/sku_ukee/mixer_paths_ukee_cdp.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_ukee/mixer_paths_ukee_cdp.xml \
-    vendor/xiaomi/mondrian/proprietary/vendor/etc/audio/sku_ukee/mixer_paths_ukee_mtp.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_ukee/mixer_paths_ukee_mtp.xml \
-    vendor/xiaomi/mondrian/proprietary/vendor/etc/audio/sku_ukee/mixer_paths_ukee_qrd.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_ukee/mixer_paths_ukee_qrd.xml \
-    vendor/xiaomi/mondrian/proprietary/vendor/etc/audio/sku_ukee/resourcemanager_ukee_cdp.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_ukee/resourcemanager_ukee_cdp.xml \
-    vendor/xiaomi/mondrian/proprietary/vendor/etc/audio/sku_ukee/resourcemanager_ukee_qrd.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_ukee/resourcemanager_ukee_qrd.xml \
-    vendor/xiaomi/mondrian/proprietary/vendor/etc/audio/sku_ukee/resourcemanager_upd.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_ukee/resourcemanager_upd.xml \
-    vendor/xiaomi/mondrian/proprietary/vendor/etc/audio/sku_ukee_qssi/audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_ukee_qssi/audio_policy_configuration.xml \
     vendor/xiaomi/mondrian/proprietary/vendor/etc/audio_cloud_control_white_list.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_cloud_control_white_list.xml \
-    vendor/xiaomi/mondrian/proprietary/vendor/etc/audio_policy_engine_configuration_mi.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_policy_engine_configuration_mi.xml \
-    vendor/xiaomi/mondrian/proprietary/vendor/etc/audio_policy_engine_default_stream_volumes.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_policy_engine_default_stream_volumes.xml \
-    vendor/xiaomi/mondrian/proprietary/vendor/etc/audio_policy_engine_product_strategies.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_policy_engine_product_strategies.xml \
-    vendor/xiaomi/mondrian/proprietary/vendor/etc/audio_policy_engine_stream_volumes.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_policy_engine_stream_volumes.xml \
     vendor/xiaomi/mondrian/proprietary/vendor/etc/audio_policy_volumes.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_policy_volumes.xml \
     vendor/xiaomi/mondrian/proprietary/vendor/etc/camera/CFR_para_UW_V01.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/CFR_para_UW_V01.bin \
     vendor/xiaomi/mondrian/proprietary/vendor/etc/camera/GpuKernelRepo.pb:$(TARGET_COPY_OUT_VENDOR)/etc/camera/GpuKernelRepo.pb \
@@ -744,6 +687,7 @@ PRODUCT_PACKAGES += \
     com.xiaomi.node.misv3 \
     com.xiaomi.node.smooth_transition \
     libdepthmapwrapper_secure \
+    libQnnHtp \
     camx.device@3.2-impl \
     camx.device@3.3-impl \
     camx.device@3.4-impl \
@@ -756,22 +700,62 @@ PRODUCT_PACKAGES += \
     camx.provider@2.7-legacy \
     com.fingerprints.extension@3.0 \
     com.qti.chiusecaseselector \
+    com.qti.feature2.anchorsync \
+    com.qti.feature2.demux \
+    com.qti.feature2.derivedoffline \
+    com.qti.feature2.ellcprocess \
+    com.qti.feature2.ellcsupernight \
+    com.qti.feature2.frameselect \
+    com.qti.feature2.fusion \
+    com.qti.feature2.generic \
+    com.qti.feature2.gs.sm8450 \
+    com.qti.feature2.hdr \
+    com.qti.feature2.mcreprocrt \
+    com.qti.feature2.memcpy \
+    com.qti.feature2.mfsr.sm8450 \
+    com.qti.feature2.ml \
+    com.qti.feature2.multirawproc \
+    com.qti.feature2.mux \
+    com.qti.feature2.offlinestatsregeneration \
+    com.qti.feature2.parallelVTCam \
+    com.qti.feature2.qcfa \
+    com.qti.feature2.qllimagedump \
+    com.qti.feature2.rawhdr \
+    com.qti.feature2.rawsuperiq \
+    com.qti.feature2.rawsupernight \
+    com.qti.feature2.realtimeserializer \
+    com.qti.feature2.rt \
+    com.qti.feature2.rtmcx \
+    com.qti.feature2.serializer \
+    com.qti.feature2.statsregeneration \
+    com.qti.feature2.stub \
+    com.qti.feature2.swmf \
     com.qti.qseeaon \
     com.qti.qseeutils \
     com.qti.stats.common \
+    com.qualcomm.mcx.distortionmapper \
+    com.qualcomm.mcx.linearmapper \
+    com.qualcomm.mcx.policy.mfl \
     camera.qcom \
     com.qti.chi.override \
     libAF \
+    libCB \
+    libHISCppAlgos \
     libMiMotion \
     libMiVideoFilter \
     libOpenCL \
+    libQnnHtpAltPrepV69Stub \
     libSNPE \
+    libSnpeHtpV69Stub \
     libTrueSight \
     libXMFaceFocus \
     libalLDC \
     libalhLDC \
+    libanc_hdr \
     libanc_supervq \
+    libancbase \
     libarc_sat \
+    libarc_translate \
     libarcsoft_beautyshot \
     libarcsoft_dualcam_refocus_video \
     libarcsoft_hdr_detection \
@@ -779,31 +763,48 @@ PRODUCT_PACKAGES += \
     libbitmlenginev2 \
     libc++_shared \
     libcamera_scene \
+    libcamerapostproc \
     libcamlog \
     libcamxcommonutils \
+    libcamxexternalformatutils \
     libcamxfacialfeatures \
     libcamxfdalgo \
     libcamxfdengine \
     libcamxhwnodecontext \
     libcamximageformatutils \
+    libcamxqsatalgo \
     libcamxsettingsmanager \
     libcamxstatscore \
     libcamxswispiqmodule \
+    libcamxtintlessalgo \
     libcdsprpc \
+    libceres \
     libchilog \
     libcom.qti.chinodeutils \
     libcom.xiaomi.mawutils \
     libcv_common \
     libcvp2_1 \
+    libdeflicker \
+    libdualcam_optical_zoom_control \
+    libdualcam_video_optical_zoom \
     libeva \
+    libeva_util \
     libfastcvdsp_stub \
     libfastcvopt \
     libhdr10plus \
+    libhta \
+    libipebpsstriping \
+    libipebpsstriping170 \
+    libipebpsstriping480 \
+    libkcl \
+    libkernelmanager \
+    libllvm-qcom \
     libmi_supernight_raw_checker \
     libmialgo_ai_vision \
     libmialgo_aio_seg \
     libmialgo_globalsaliency \
     libmialgo_ie_preview \
+    libmialgo_rfs \
     libmialgo_sd \
     libmialgo_utils \
     libmialgo_video_colourkeeping \
@@ -812,26 +813,44 @@ PRODUCT_PACKAGES += \
     libmibokeh_845_video \
     libmibokeh_855 \
     libmiphone_preview_bokeh_mono \
+    libmis_plugin_dummy \
+    libmis_plugin_his \
+    libmis_plugin_morpho \
+    libmis_plugin_vidhance \
     libmisight \
     libmmcamera_mfnr \
+    libmorpho_ubwc \
+    libmorpho_video_stabilizer \
     libmpbase \
+    libomp \
     libopencv \
     libopencv3a \
+    libopestriping \
     libos \
     libqshcamera \
     libremosaic_wrapper \
+    libremosaiclib \
     libscveCommon \
     libscveCommon_stub \
     libscveObjectSegmentation \
     libscveObjectTracker \
+    libscveObjectTracker_stub \
     libsnpe_dsp_domains_v2 \
     libsnpe_dsp_domains_v3 \
+    libsnpe_loader \
     libsynx \
+    libthermalclient \
     libthreadutils \
     libtinyxml2_1 \
+    libtriplecam_optical_zoom_control \
+    libtriplecam_video_optical_zoom \
+    libturboschedmanager \
+    libubifocus \
     libvideoBokeh \
+    libvidhance \
     libxmi_hdr_checker \
     libxmi_high_dynamic_range \
+    libxmi_slow_motion_mein \
     libxmi_slow_motion_triger \
     vendor.qti.hardware.camera.aon@1.0-service-impl \
     vendor.qti.hardware.camera.postproc@1.0-service-impl \
@@ -874,6 +893,7 @@ PRODUCT_PACKAGES += \
     vendor_lib_rfsa_adsp_libSnpeHtpV69Skel_so \
     vendor_lib_rfsa_adsp_libbitml_nsp_v2_skel_so \
     vendor_lib_rfsa_adsp_libcvpdsp_2_1_so \
+    vendor_lib_rfsa_adsp_libdspCV_skel_so \
     vendor_lib_rfsa_adsp_libevadsp_3_0_so \
     vendor_lib_rfsa_adsp_libfastcvadsp_so \
     vendor_lib_rfsa_adsp_libfastcvdsp_skel_so \
