@@ -738,11 +738,9 @@ PRODUCT_PACKAGES += \
     camera.qcom \
     com.qti.chi.override \
     libAF \
-    libCB \
     libHISCppAlgos \
     libMiMotion \
     libMiVideoFilter \
-    libOpenCL \
     libQnnHtpAltPrepV69Stub \
     libSNPE \
     libSnpeHtpV69Stub \
@@ -765,7 +763,6 @@ PRODUCT_PACKAGES += \
     libcamerapostproc \
     libcamlog \
     libcamxcommonutils \
-    libcamxexternalformatutils \
     libcamxfacialfeatures \
     libcamxfdalgo \
     libcamxfdengine \
@@ -795,9 +792,6 @@ PRODUCT_PACKAGES += \
     libipebpsstriping \
     libipebpsstriping170 \
     libipebpsstriping480 \
-    libkcl \
-    libkernelmanager \
-    libllvm-qcom \
     libmi_supernight_raw_checker \
     libmialgo_ai_vision \
     libmialgo_aio_seg \
