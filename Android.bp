@@ -5,6 +5,7 @@
 soong_namespace {
     imports: [
         "device/xiaomi/mondrian",
+        "device/xiaomi/sm8450-common",
         "vendor/xiaomi/sm8450-common",
     ],
 }
@@ -6358,6 +6359,7 @@ cc_prebuilt_library_shared {
                 "libc",
                 "libm",
                 "libdl",
+                "libprocessgroup_shim",
             ],
         },
     },
@@ -7082,6 +7084,7 @@ cc_prebuilt_library_shared {
                 "libc",
                 "libm",
                 "libdl",
+                "libprocessgroup_shim",
             ],
         },
     },
