@@ -773,7 +773,6 @@ PRODUCT_PACKAGES += \
     libcamxstatscore \
     libcamxswispiqmodule \
     libcamxtintlessalgo \
-    libcdsprpc \
     libceres \
     libchilog \
     libcom.qti.chinodeutils \
@@ -810,7 +809,6 @@ PRODUCT_PACKAGES += \
     libmis_plugin_his \
     libmis_plugin_morpho \
     libmis_plugin_vidhance \
-    libmisight \
     libmmcamera_mfnr \
     libmorpho_ubwc \
     libmorpho_video_stabilizer \
@@ -832,9 +830,7 @@ PRODUCT_PACKAGES += \
     libsnpe_dsp_domains_v3 \
     libsnpe_loader \
     libsynx \
-    libthermalclient \
     libthreadutils \
-    libtinyxml2_1 \
     libtriplecam_optical_zoom_control \
     libtriplecam_video_optical_zoom \
     libturboschedmanager \
@@ -847,6 +843,8 @@ PRODUCT_PACKAGES += \
     libxmi_slow_motion_triger \
     vendor.qti.hardware.camera.aon@1.0-service-impl \
     vendor.qti.hardware.camera.postproc@1.0-service-impl \
+    vendor.qti.hardware.vpp@1.1 \
+    vendor.qti.hardware.vpp@1.2 \
     vendor.xiaomi.hardware.fingerprintextension@1.0 \
     vendor.xiaomi.hw.touchfeature@1.0 \
     vendor_lib_rfsa_adsp_bm2n00_bin \
