@@ -446,7 +446,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/mondrian/proprietary/vendor/etc/camera/xiaomi/thirdpartysnapshot.json:$(TARGET_COPY_OUT_VENDOR)/etc/camera/xiaomi/thirdpartysnapshot.json \
     vendor/xiaomi/mondrian/proprietary/vendor/etc/camera/xiaomiSceneDetection.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/xiaomiSceneDetection.xml \
     vendor/xiaomi/mondrian/proprietary/vendor/etc/init/hw/init.batterysecret.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.batterysecret.rc \
-    vendor/xiaomi/mondrian/proprietary/vendor/etc/init/init.mfp-daemon.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.mfp-daemon.rc \
     vendor/xiaomi/mondrian/proprietary/vendor/etc/init/vendor.qti.camera.provider@2.7-service_64.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.camera.provider@2.7-service_64.rc \
     vendor/xiaomi/mondrian/proprietary/vendor/etc/libnfc-SN220.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-SN220.conf \
     vendor/xiaomi/mondrian/proprietary/vendor/etc/libnfc-mtp-SN100.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-mtp-SN100.conf \
